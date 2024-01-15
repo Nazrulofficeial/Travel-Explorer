@@ -6,7 +6,6 @@
     margin: 0;
     font-family: 'mulish';
     box-sizing: border-box;
-    /* overflow-x: auto; */
 }
 
 /* Shared Section */
@@ -160,6 +159,64 @@
     gap: 24px;
 }
 
+/* Image With Text start from here */
+
+.img-with-text-container {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 130px;
+    margin-left: 130px;
+    gap: 60px;
+}
+
+.img-with-text-content .img-with-text-heading {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.img-with-text-content .img-with-text-first-desc {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.img-with-text-list li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    margin-left: 20px
+}
+
+.img-with-text-second-desc {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.img-with-text-btn {
+    padding: 15px 35px;
+    margin-top: 32px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 /* Mobile Responsive style */
 
 @media screen and (max-width: 576px) {
@@ -245,5 +302,10 @@
 
     .banner-container .banner-btn {
         width: 250px;
+    }
+    /* Img With text section start from here */
+
+    .img-with-text-container{
+        flex-direction: column;
     }
 }
