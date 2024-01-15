@@ -6,7 +6,7 @@
     margin: 0;
     font-family: 'mulish';
     box-sizing: border-box;
-    box-sizing: border-box;
+    /* overflow-x: auto; */
 }
 
 /* Shared Section */
@@ -165,7 +165,7 @@
 @media screen and (max-width: 576px) {
 
     * {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         max-width: 576px;
     }
 
@@ -200,7 +200,7 @@
     .banner-container {
         width: 335px;
         height: 483px;
-        padding: 0;
+        padding: 70 20px;
         margin: 0 auto;
     }
 
@@ -215,6 +215,15 @@
         font-weight: 800;
         line-height: normal;
         text-align: center;
+    }
+
+    .banner-container .banner-desc {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
     }
 
     .banner-input-container {
@@ -236,10 +245,5 @@
 
     .banner-container .banner-btn {
         width: 250px;
-    }
-
-    .banner-container .banner-heading {
-        margin: auto;
-        text-align: center;
     }
 }
