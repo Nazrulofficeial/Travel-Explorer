@@ -82,12 +82,15 @@
 .banner-container {
 
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-    background-size: 1200px;
+    /* background-size: 1200px; */
+    background-size: cover;
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 16px;
     text-align: center;
+    margin-left: 135px;
+    margin-right: 135px;
 }
 
 .banner-container .banner-heading {
@@ -117,6 +120,7 @@
     padding: 16px;
     border-radius: 8px;
     background: #FFF;
+    border: 0;
 }
 
 .banner-container .banner-dropdown {
@@ -128,7 +132,7 @@
 
 .banner-container .banner-btn {
     padding: 16px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 34px;
     border-radius: 8px;
     border: none;
@@ -139,9 +143,31 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 
+.banner-input-container {
+    padding: 10px 50px;
+    padding-right: 1px;
+    padding-left: 1px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* Mobile Responsive style */
+
 @media screen and (max-width: 576px) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    /* Header Section */
     .header-container nav {
         display: none;
     }
@@ -166,5 +192,44 @@
     .hamburger-menu {
         display: block;
         width: 20px;
+    }
+
+    /* Responsive Banner Section Start */
+    .banner-container {
+        width: 335px;
+        height: 483px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .banner-container .banner-heading {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 8px;
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+    }
+    .banner-input-container{
+        flex-direction: column;
+    }
+    .banner-container .banner-input {
+        width: 250px;
+    }
+    
+    .banner-container .banner-dropdown {
+        width: 250px;
+    }
+    
+    .banner-container .banner-btn {
+        width: 250px;
+    }
+    .banner-container .banner-heading{
+        margin: auto;
+        text-align: center;
     }
 }
