@@ -6,6 +6,7 @@
     margin: 0;
     font-family: 'mulish';
     box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Shared Section */
@@ -163,8 +164,9 @@
 
 @media screen and (max-width: 576px) {
 
-    *{
-        box-sizing: border-box;
+    * {
+        overflow-x: hidden;
+        max-width: 576px;
     }
 
     /* Header Section */
@@ -214,21 +216,29 @@
         line-height: normal;
         text-align: center;
     }
-    .banner-input-container{
+
+    .banner-input-container {
+        display: flex;
+        width: 287px;
+        padding: 16px;
         flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
     }
+
     .banner-container .banner-input {
         width: 250px;
     }
-    
+
     .banner-container .banner-dropdown {
         width: 250px;
     }
-    
+
     .banner-container .banner-btn {
         width: 250px;
     }
-    .banner-container .banner-heading{
+
+    .banner-container .banner-heading {
         margin: auto;
         text-align: center;
     }
