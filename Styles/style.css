@@ -46,7 +46,6 @@
 
 .header-title {
     color: #131318;
-    font-family: Mulish;
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
@@ -461,6 +460,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 /* Newsletter Section Start From Here */
@@ -515,6 +515,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 800;
+    cursor: pointer
 }
 
 .newsletter-content hr {
@@ -551,6 +552,50 @@
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+}
+
+/* Footer */
+
+.footer-container {
+    text-align: center;
+    padding-left: 130px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+}
+
+.footer-logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 15px;
+}
+
+.footer-logo-content h3 {
+    color: #131318;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-container p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 32px;
+}
+
+.footer-social-icons{
+    padding-bottom: 50px;
+}
+
+.footer-container hr{
+    margin-bottom: 50px;
+    margin-right: 130px;
 }
 
 /* Mobile Responsive style */
