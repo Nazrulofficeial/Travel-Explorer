@@ -215,6 +215,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .img-with-text-img img {
@@ -267,6 +268,49 @@
     line-height: 26px;
     margin-top: 25px;
     margin-bottom: 50px;
+}
+
+.destination-img-interior-heading-1{
+    position: absolute;
+    left: 360px;
+    top: 1720px;
+    color: white;
+}
+.destination-img-interior-heading-2{
+    position: absolute;
+    left: 950px;
+    top: 1720px;
+    color: white;
+}
+.destination-img-interior-heading-3{
+    color: white;
+    position: absolute;
+    left: 270px;
+    top: 2030px;
+}
+.destination-img-interior-heading-4{
+    color: white;
+    position: absolute;
+    left: 680px;
+    top: 2030px;
+}
+.destination-img-interior-heading-5{
+    color: white;
+    position: absolute;
+    left: 1120px;
+    top: 2030px;
+}
+.destination-img-interior-heading-6{
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 2350px;
+}
+.destination-img-interior-heading-7{
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 2350px;
 }
 
 /* Mobile Responsive style */
@@ -360,8 +404,8 @@
 
     .img-with-text-container {
         flex-direction: column;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .img-with-text-img img {
@@ -414,7 +458,7 @@
     .destination-img-first-col {
         flex-direction: column;
         /* margin-left: -110px; */
-        margin-left: 20px;
+        margin-left: 30px;
 
     }
     .destination-img-first-col img{
@@ -424,13 +468,51 @@
 
     .destination-img-second-col {
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 30px;
 
     }
 
     .destination-img-third-col {
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 30px;
 
+    }
+    .destination-img-interior-heading-1{
+        left: 150px;
+        top: 2190px;
+    }
+    .destination-img-interior-heading-2{
+        left: 150px;
+        top: 2390px;
+    }
+    .destination-img-interior-heading-3{
+        color: white;
+        position: absolute;
+        left: 150px;
+        top: 2580px;
+    }
+    .destination-img-interior-heading-4{
+        color: white;
+        position: absolute;
+        left: 120px;
+        top: 2780px;
+    }
+    .destination-img-interior-heading-5{
+        color: white;
+        position: absolute;
+        left: 150px;
+        top: 2990px;
+    }
+    .destination-img-interior-heading-6{
+        color: white;
+        position: absolute;
+        left: 130px;
+        top: 3180px;
+    }
+    .destination-img-interior-heading-7{
+        color: white;
+        position: absolute;
+        left: 135px;
+        top: 3380px;
     }
 }
